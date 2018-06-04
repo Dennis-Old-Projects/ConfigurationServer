@@ -1,0 +1,7 @@
+---
+applications:
+- name: ConfigurationServer
+  memory: 512M
+  instances: 1
+  path: target/ConfigurationServer.war
+  buildpack: https://github.com/cloudfoundry/java-buildpack
