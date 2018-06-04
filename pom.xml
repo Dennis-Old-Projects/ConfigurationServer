@@ -84,7 +84,7 @@
 					<target>https://api.ng.bluemix.net</target>
 					<org>dennis_chacko@yahoo.com</org>
 					<space>dev</space>
-					<appname>${artifactId}</appname>
+					<appname>${project.artifactId}</appname>
 				</configuration>
 			</plugin>
 		</plugins>
