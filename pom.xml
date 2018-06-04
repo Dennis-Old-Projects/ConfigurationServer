@@ -76,17 +76,17 @@
 			</plugin>
 
 			<plugin>
-                <groupId>org.cloudfoundry</groupId>
-                <artifactId>cf-maven-plugin</artifactId>
-                <version>1.0.4</version>
-                <configuration>
-                    <server>IBM_Cloud</server>
-                    <target>https://api.ng.bluemix.net</target>
-                    <org>dennis_chacko@yahoo.com</org>
-                    <space>dev</space>
-                    <appname>${artifactId}</appname>                    
-                </configuration>
-            </plugin>
+				<groupId>org.cloudfoundry</groupId>
+				<artifactId>cf-maven-plugin</artifactId>
+				<version>1.0.4</version>
+				<configuration>
+					<server>IBM_Cloud</server>
+					<target>https://api.ng.bluemix.net</target>
+					<org>dennis_chacko@yahoo.com</org>
+					<space>dev</space>
+					<appname>${artifactId}</appname>
+				</configuration>
+			</plugin>
 		</plugins>
 
 	</build>
